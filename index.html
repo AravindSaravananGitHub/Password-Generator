@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aravind S">
+        <meta name="description" content="This is a project of Random Password Geenrator">
+        <title>Random Password Generator</title>
+        <link rel="icon" href="icon.png" type="Image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="password-container">
+            <h2>Random Password Generator</h2>
+            <div class="input-container">
+                <input type="text" id="password" class="input" placeholder="Create Password" readonly >
+                <i class="fa-solid fa-copy" id="copy-icon"></i>
+            </div>
+            <button class="btn" id="btn-generate">Generate</button>
+        </div>
+        <div class="notification active"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
